@@ -4,7 +4,12 @@ RoadBuddy est une entreprise de covoiturage qui connecte les conducteurs avec de
 
 # Information
 
-Les techs utilisées pour ce projet sont : ReactJS/ typescript - NodeJS - Express.
-La base de donnée : mongoDb - mongoose
+Les techs utilisées pour ce projet sont : **ReactJS/ typescript - NodeJS - Express**.
+La base de donnée : **mongoDb - mongoose**.
+La version de node utilisée est : **v.18.13.0**.
 
-[GitHub](https://github.com)
+# Lien vers les repositories
+
+1. FRONT : [FRONT : ]([https://github.com](https://github.com/ElysiumTM/roadBuddy-front)https://github.com/ElysiumTM/roadBuddy-front)
+2. BACK : [BACK : ]([[https://github.com](https://github.com/ElysiumTM/roadBuddy-front)https://github.com/ElysiumTM/roadBuddy-front](https://github.com/ElysiumTM/roadBuddy-server)https://github.com/ElysiumTM/roadBuddy-server)
+
