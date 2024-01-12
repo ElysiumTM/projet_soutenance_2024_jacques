@@ -26,6 +26,15 @@ La version de node utilisée est : **v.18.13.0**.
   - Lancez le back avec cette commande `npm start`.
   - Pour interagir avec MongoDB, lancez cette commande afin de le démarrer `mongosh`.
   - #### STRIPE
-  - Pour démarrer un paiement avec Stripe, il est primordial de lancez cette première commande : `stripe listen --forward-to localhost:3300/webhook --skip-verify`.
-  - Ainsi que cette deuxième commande : `stripe trigger payment_intent.succeeded`.
+    - Pour démarrer un paiement avec Stripe, il est primordial de lancez cette première commande : `stripe listen --forward-to localhost:3300/webhook --skip-verify`.
+    - Ainsi que cette deuxième commande : `stripe trigger payment_intent.succeeded`.
   
+# SCHEMA et DESIGN
+
+### SCHEMA DE LA BASE DE DONNEE UML
+  ![UML_roadBuddy](https://github.com/ElysiumTM/projet_soutenance_2024_jacques/assets/97950735/ba414c04-dbac-42ad-9741-f99b0b845c90)
+
+### FIGMA
+  - [Desktop](https://www.figma.com/file/XdtHXIRcvhLlI6DslvyCYW/Desktop?type=design&node-id=0-1&mode=design&t=7dL07JdFHkulTkbE-0)
+  - [MOBILE](https://www.figma.com/file/kEaBQH2RhQVejAQDLhTv2l/Mobile?type=design&mode=design&t=AcwhYFWQKhJfK4c2-0)
+    
