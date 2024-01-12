@@ -21,8 +21,11 @@ La version de node utilisée est : **v.18.13.0**.
   - Lancez le front avec cette commande `npm run dev`.
 
 - Back
-- Clonez le repository.
-- Lancez la commande `npm i` pour installer les dépandances.
-- Lancez le back avec cette commande `npm start`.
-- Pour interagir avec MongoDB, lancez cette commande afin de le démarrer `mongosh`.
+  - Clonez le repository.
+  - Lancez la commande `npm i` pour installer les dépandances.
+  - Lancez le back avec cette commande `npm start`.
+  - Pour interagir avec MongoDB, lancez cette commande afin de le démarrer `mongosh`.
+  - #### STRIPE
+  - Pour démarrer un paiement avec Stripe, il est primordial de lancez cette première commande : `stripe listen --forward-to localhost:3300/webhook --skip-verify`.
+  - Ainsi que cette deuxième commande : `stripe trigger payment_intent.succeeded`.
   
