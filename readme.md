@@ -16,9 +16,9 @@ La version de node utilisée est : **v.18.13.0**.
 # Lancement du projet
 
 - FRONT
-- Clonez le repository.
-- Lancez la commande `npm i` pour installer les dépandances.
-- Lancez le front avec cette commande `npm run dev`.
+- - Clonez le repository.
+- - Lancez la commande `npm i` pour installer les dépandances.
+- - Lancez le front avec cette commande `npm run dev`.
 
 - Back
 - Clonez le repository.
